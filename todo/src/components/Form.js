@@ -11,7 +11,7 @@ const Form = (props) => {
                 placeholder={"add task"}
                 />
                 <button onClick={event => {props.onSubmit(event)}}> Add task</button>
-                <button onClick={event => {props.clearCompleted(event)}}> Clear</button>}
+                <button onClick={event => {props.clearCompleted(event)}}> Clear</button>
             </form>
         </div>
     )

@@ -1,9 +1,9 @@
 import  React, { useState, useReducer } from 'react';
 import './App.css';
-import TaskList from './TaskList'
+import TaskList from './components/TaskList'
 import Form from './components/Form';
 
-import { initialState, reducer } from "./reducer"
+import { initialState, reducer } from "./reducer/reducer"
 
 
 function App() {
